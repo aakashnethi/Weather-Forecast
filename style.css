@@ -1,0 +1,76 @@
+home, body {
+    min-width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    border: 0px;
+    background-color: gray;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+    color: black;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav > li > a,
+.navbar-custom .navbar-nav .dropdown-menu > li > a {
+	font-size: 16px;
+	color: #4a4a4a;
+	padding: 20px 50px;
+    text-align: center;
+}
+
+.navbar-custom .nav li.active,
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .navbar-nav > li.active a{
+	background: #4a4a4a;
+	color: #f7f7f7;
+}
+
+.navbar-custom .navbar-brand {
+	font-size: 24px;
+	background: #4a4a4a;
+	color: #f7f7f7;
+}
+
+.navbar-custom .dropdown-menu {
+	border: 0;
+	border-top: 2px solid;
+	border-radius: 0;
+}
+
+.navbar-custom .dropdown-menu > li > a {
+	padding: 10px 20px;
+}
+
+.navbar-custom .nav .open > a,
+.navbar-custom .dropdown-menu > li > a:hover,
+.navbar-custom .dropdown-menu > li > a:focus{
+	background: #4a4a4a;
+	color: #f7f7f7;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+	background: #4a4a4a;
+}
+
+.jumbo {
+    margin-top: 80px;
+    min-height: 250px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+#hourly-panel {
+    margin-top: 80px;
+    align-content: center;
+}
+
+#daily-panel {
+    margin-top: 80px;
+    align-content: center;
+}
